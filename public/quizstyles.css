@@ -1,0 +1,117 @@
+/* :root {
+  font-size: 62.5%;
+} */
+
+* {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: black;
+}
+
+h1, h2, h3, h4 {
+  margin-bottom: 1rem; /* so this is 10px */
+}
+
+h1 {
+  font-size: 54px;
+  margin-bottom: 50px;
+}
+
+h1 > span {
+  font-size: 24px; /* so this is 24px */
+  font-weight: 500;
+}
+
+h2 {
+  font-size: 38px;
+  margin-top: 0;
+  margin-bottom: 30px;
+  font-weight: 700;
+}
+
+h3 {
+  font-size: 22px;
+  font-weight: 500;
+  letter-spacing: 3px;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 6rem 0 10px; /* or just margin-top: 5rem to match h1 */
+}
+
+.textBox {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.texts {
+  width: 80%;
+  font-size: 14px;
+  text-align: justify;
+  line-height: 1.7;
+}
+
+.textBtn {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 19%;
+  margin-top: 10%;
+}
+
+.container {
+  width: 100vw;
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 800px;
+  margin: 3% auto;     /* This might need to be changed back to 30% auto */
+  padding: 20px;
+  background-color: rgb(238, 232, 170);
+}
+
+.container > * {
+  width: 100%;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* BUTTONS */
+.btn {
+  font-size: 18px;
+  width: 200px;
+  text-align: center;
+  border: 1px solid #2792607e;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  text-decoration: none;
+  color: #279260;
+  background-color: white;
+}
+
+.btn:hover {
+  cursor: pointer;
+  color: white;
+  background-color: rgb(105, 196, 105);
+  box-shadow: 0 4px 14px 0 rgba(100, 50, 0, 0.5);
+  transform: translateY(-1px); /* this makes the button move up 1px when you hover over it */
+  transition: transform 150ms; /* makes it move more slowly instead of jumping */
+}
+
+.btn[disabled]:hover {
+  cursor: not-allowed;
+  box-shadow: none;
+  transform: none;
+}

@@ -1,0 +1,52 @@
+.choice-container {
+  display: flex; 
+  margin-bottom: 5px;
+  width: 100%;  /* might want to change */
+  font-size: 18px;
+  /* border: 1px solid rgb(86, 165, 35, 0.25); */
+  background-color: white;
+}
+
+.choice-container:hover {
+  cursor: pointer;
+  box-shadow: 0 4px 14px 0 rgba(100, 50, 0, 0.5);
+  transform: translateY(-1px); /* this makes the button move up 1px when you hover over it */
+  transition: transform 150ms; /* makes it move more slowly instead of jumping */
+}
+
+.choice-prefix {
+  padding: 15px 25px; 
+  background-color: rgba(236, 158, 134, 1);
+}
+
+.choice-text {
+  padding: 15px;
+  width: 100%;
+}
+
+.correct {
+  background-color: #28a745;
+}
+
+.incorrect {
+  background-color: #dc3545;
+}
+
+.score-counter {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 50px;
+}
+
+.score-bar {
+  height: 35px;
+  width: 200px;
+  border: 1px solid white;
+}
+
+#score-percentage {
+  width: 0px;
+  height: 100%;
+  background-color: gray;
+  background-color: rgba(236, 158, 134, 1);
+}
