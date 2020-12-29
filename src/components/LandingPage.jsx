@@ -202,7 +202,7 @@ export default class LandingPage extends Component {
             <div className="card-price card-even">
               <h3 className="card-price-border pro-text-color">£9 <span className="card-text-small">/MONTH</span></h3>
               <h3 className="card-price-border pro-text-color">£89 <span className="card-text-small">/YEAR</span></h3>
-            </div>
+            </div> 
             <div className="card-features">
               <p className="card-odd">Instant Sign Up</p>
               <p className="card-even">Full access to more than 740 modules</p>
