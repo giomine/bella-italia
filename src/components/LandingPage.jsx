@@ -271,7 +271,7 @@ export default class LandingPage extends Component {
       <ul className="navbar-ul-bottom">
         <div className="navbar-ul-bottom-left">
           <li>
-            <p className="footer-text copyright">Copyright { new Date().getFullYear() }</p>
+            <p className="footer-text copyright"><a href="http://www.satorireader.com">Inspired by <span style={{ textDecoration: "underline" }}>SatoriReader.com</span></a></p>
           </li>
         </div>
         <div className="navbar-ul-bottom-right">
