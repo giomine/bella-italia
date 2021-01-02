@@ -275,9 +275,9 @@ export default class LandingPage extends Component {
           </li>
         </div>
         <div className="navbar-ul-bottom-right">
-          <li>
+          {/* <li>
             <p className="footer-text">About Us</p>
-          </li>
+          </li> */}
           <li>
               <Link to="/signin"><p className="footer-text">Sign In</p></Link>
           </li>
