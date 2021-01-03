@@ -65,6 +65,9 @@ export default class LandingPage extends Component {
             <h5>Lovingly crafted by the team behind Human Italian</h5>
             <Link to="/register"><button className="top-button">Sign Up Now</button></Link>
             <Link to="/1"><button className="top-button">Try For Free</button></Link>
+            <div>
+              <Link to="/0"><button className="top-button top-button-articles">Go To Articles</button></Link>
+            </div>
         </div>
     </div> {/* <!-- Materialize container --> */}
 

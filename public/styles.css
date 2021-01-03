@@ -97,7 +97,7 @@ hr{
     border: 1px solid #2792607e;
     /* background-color: rgb(37, 156, 37); */
     border-radius: 5px;
-    margin: 3% 1%;
+    margin: 3% 1% 1%;
     background-color: white;
     color: #279260;
 }
@@ -105,6 +105,10 @@ hr{
 .top-button:hover{
     background-color: rgb(105, 196, 105);
     color: white;
+}
+
+.top-button-articles{
+    margin: 0;
 }
 
 /* INTRO */
