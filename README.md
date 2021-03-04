@@ -1,3 +1,8 @@
+![](public/screenshot1.png)
+![](public/screenshot2.png)
+![](public/screenshot3.png)
+![](public/screenshot4.png)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
