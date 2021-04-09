@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import Form from "./Form";
 import Navbar from "./Navbar";
+import Footer from "./Footer";
 
 function Oops(props){
 
@@ -16,6 +17,7 @@ function Oops(props){
                     <Link className="link-color" to="/register"><p>Or click here to register</p></Link>
                     <Form isRegistered={userIsRegistered} />
                 </div>
+            <Footer />
         </div>
     )
 }

@@ -3,6 +3,7 @@ import React from "react";
 import Navbar from "./Navbar";
 import imagesObject from "../imagesObject";
 import ArticleThumbnails from "./ArticleThumbnails";
+import Footer from "./Footer";
 
 function ArticlesHomepage(){
     function Display(props){
@@ -18,6 +19,7 @@ function ArticlesHomepage(){
             {/* <Header /> */}
             <Navbar />
             {imagesObject.map(Display)}
+            <Footer />
         </div>
     )    
 }

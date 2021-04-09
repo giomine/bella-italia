@@ -475,7 +475,7 @@ hr{
 
 /* FOOTER */
 .nav-bottom{
-    height: 76px;
+    height: 100px;
 }
 
 .navbar-ul-bottom{
@@ -498,6 +498,10 @@ hr{
     float: right;
 }
 
+p.footer-text{
+    width: 100%;
+}
+
 .nav-wrapper-bottom{
     background-color: #383A47;
     padding: 30px 0;
@@ -510,6 +514,11 @@ hr{
 
 @media (max-width: 850px) {
     .navbar-ul-bottom-right { width: 30%; }
+}
+
+@media (max-width: 400px) {
+    nav.nav-bottom.transparent { line-height: 20px; }
+    .navbar-ul-bottom-right a, .navbar-ul-bottom-left a { width: 100%; padding: 0 !important; }
 }
 
 
