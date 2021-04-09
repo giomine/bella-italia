@@ -683,6 +683,7 @@ html{
 
 @media (max-width: 525px) {
     .article-grid { display: flex; flex-direction: column-reverse; }
+    .space-me .article-title-align { margin-right: 10px; text-align: center; }
 }
 
 @media (max-width: 414px) {
