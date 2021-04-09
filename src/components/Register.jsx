@@ -1,7 +1,8 @@
 import React from "react";
 import Navbar from "./Navbar"
 import Form from "./Form";
-import { Link } from "react-router-dom"
+import { Link } from "react-router-dom";
+import Footer from "./Footer";
 
 function Register(){
 
@@ -17,6 +18,7 @@ function Register(){
                     <Link  className="link-color" to="/signin"><p>Or click here to sign in</p></Link>
                     <Form isRegistered={userIsRegistered} />
                 </div>
+            <Footer />
             </div>
         </div>
     )

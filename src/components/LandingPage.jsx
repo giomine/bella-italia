@@ -5,6 +5,7 @@ import M from "materialize-css";
 import { IconContext } from "react-icons";
 import { FaBookReader, FaSearch, FaVolumeUp, FaFacebookSquare, FaTwitterSquare } from "react-icons/fa";
 import Navbar from "./Navbar";
+import Footer from "./Footer";
 
 
 export default class LandingPage extends Component {
@@ -268,7 +269,9 @@ export default class LandingPage extends Component {
 
 {/* <!-- FOOTER --> */}
 
-<footer>
+<Footer />
+
+{/* <footer>
   <nav className="nav-bottom transparent">
     <div className="nav-wrapper-bottom nav-wrapper">
       <ul className="navbar-ul-bottom">
@@ -278,9 +281,6 @@ export default class LandingPage extends Component {
           </li>
         </div>
         <div className="navbar-ul-bottom-right">
-          {/* <li>
-            <p className="footer-text">About Us</p>
-          </li> */}
           <li>
               <Link to="/signin"><p className="footer-text">Sign In</p></Link>
           </li>
@@ -288,7 +288,7 @@ export default class LandingPage extends Component {
       </ul>
     </div>
   </nav>
-</footer>
+</footer> */}
 
     
  
