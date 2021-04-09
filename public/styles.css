@@ -672,6 +672,39 @@ html{
     padding-bottom: 5%;
 }
 
+@media (max-width: 525px) {
+    .article-grid { display: flex; flex-direction: column-reverse; }
+}
+
+@media (max-width: 414px) {
+    .space-me .top-button, .space-me .credits { position: relative; bottom: 2250px; }
+    .space-me .para-widths, .space-me p img, .space-me .article-title-align { position: relative; top: 70px; }
+}
+
+@media (max-width: 411px) {
+    .space-me .top-button, .space-me .credits { position: relative; bottom: 2280px; }
+}
+
+@media (max-width: 385px) {
+    .space-me .top-button, .space-me .credits { position: relative; bottom: 2300px; }
+}
+@media (max-width: 376px) {
+    .space-me .top-button, .space-me .credits { position: relative; bottom: 2330px; }
+}
+@media (max-width: 360px) {
+    .space-me .top-button, .space-me .credits { position: relative; bottom: 2350px; }
+}
+@media (max-width: 320px) {
+    .space-me .top-button, .space-me .credits { position: relative; bottom: 2430px; }
+}
+
+@media (max-width: 300px) {
+    .article-title-align { font-size: 30px; }
+}
+@media (max-width: 280px) {
+    .space-me .top-button, .space-me .credits { position: relative; bottom: 2520px; }
+}
+
 /* FORM */
 
 .form{
