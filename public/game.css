@@ -51,7 +51,7 @@
   background-color: rgba(236, 158, 134, 1);
 }
 
-@media(max-width: 550px) {
+@media(max-width: 850px) {
   .container { width: 99% !important; height: 100%; }
   h1 { font-size: 30px !important; }
   h2 { font-size: 25px !important; }
