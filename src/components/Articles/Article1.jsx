@@ -1,5 +1,6 @@
 import React from "react";
 import Navbar from "../Navbar";
+import Footer from "../Footer";
 
 function Article1(){
     return(
@@ -119,6 +120,7 @@ function Article1(){
                 </div>
                 </div>
             </div>
+            <Footer />
         </div>
     )
 }

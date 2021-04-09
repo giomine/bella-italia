@@ -115,3 +115,8 @@ h3 {
   box-shadow: none;
   transform: none;
 }
+
+
+/* FOOTER */
+p.footer-text, span { color: white; }
+/* a:hover { background-color: #383A47 !important; } */

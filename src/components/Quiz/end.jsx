@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 // import { Link } from "react-router-dom";
 import Navbar from "../Navbar";
+import Footer from "../Footer";
 
 export default class EndOfQuiz extends Component {
 
@@ -34,6 +35,7 @@ export default class EndOfQuiz extends Component {
 
         {/* <script src="end.js" charset="utf-8"></script> */}
         </body>
+        <Footer />
       </div>
 )
 }
