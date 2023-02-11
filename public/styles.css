@@ -62,7 +62,10 @@ hr{
 .title-background{
     height: 600px;
     /* height: 200% !important; */
-    background: url(html-images/assisi4.jpeg);
+    background: linear-gradient(217deg, rgba(15, 134, 255, 0.3), rgba(0, 170, 255, 0.5)),
+    linear-gradient(336deg, rgba(0, 170, 255, 0.1), rgba(15, 134, 255, 0.5)),
+    linear-gradient(127deg, rgba(15, 14, 255, 0.1), rgba(15, 14, 255, 0.7));
+    /* background: url(html-images/assisi4.jpeg); */
     padding: 100px;
     padding-bottom: 40px;
     padding-bottom: 10%;
